@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# React App
 
 A programming training website with react that is being developed and has features such as light and dark theme using context api.
 
