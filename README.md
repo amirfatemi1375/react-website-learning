@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A programming training website with react that is being developed and has features such as light and dark theme using context api.
 
 ## Available Scripts
 
