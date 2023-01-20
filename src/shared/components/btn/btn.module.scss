@@ -1,0 +1,44 @@
+.btn {
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  position: relative;
+  cursor: pointer;
+  background-color: #221638;
+  overflow: hidden;
+  span {
+    margin-right: 10px;
+  }
+  .BtnRedR {
+    background-color: #fe4a55;
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    transition: all 400ms ease-in;
+    height: 100%;
+    right: 0px;
+    margin: 0px;
+  }
+  .BtnRedL {
+    background-color: #fe4a55;
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    transition: all 400ms ease-in;
+    height: 100%;
+    left: 0px;
+    margin: 0px;
+  }
+  .BtnContent {
+    position: relative;
+    z-index: 99;
+  }
+  &:hover .BtnRedR {
+    right: -100%;
+  }
+  &:hover .BtnRedL {
+    left: -100%;
+  }
+}

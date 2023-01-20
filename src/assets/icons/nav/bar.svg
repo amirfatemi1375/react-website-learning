@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.001" height="15.456" viewBox="0 0 21.001 15.456">
+  <g id="menu" transform="translate(0 -39.211)">
+    <g id="Group_8" data-name="Group 8" transform="translate(0 39.211)">
+      <g id="Group_7" data-name="Group 7" transform="translate(0 0)">
+        <path id="Path_13" data-name="Path 13" d="M19.814,39.211H1.187A1.188,1.188,0,0,0,0,40.4v1.721a1.188,1.188,0,0,0,1.187,1.187H19.814A1.188,1.188,0,0,0,21,42.119V40.4A1.188,1.188,0,0,0,19.814,39.211Z" transform="translate(0 -39.211)" fill="#c9c9c9"/>
+        <path id="Path_14" data-name="Path 14" d="M19.814,119.546H1.187A1.188,1.188,0,0,0,0,120.733v1.721a1.188,1.188,0,0,0,1.187,1.187H19.814A1.188,1.188,0,0,0,21,122.454v-1.721A1.188,1.188,0,0,0,19.814,119.546Z" transform="translate(0 -113.865)" fill="#c9c9c9"/>
+        <path id="Path_15" data-name="Path 15" d="M19.814,199.881H1.187A1.188,1.188,0,0,0,0,201.068v1.721a1.188,1.188,0,0,0,1.187,1.187H19.814A1.188,1.188,0,0,0,21,202.789v-1.721A1.188,1.188,0,0,0,19.814,199.881Z" transform="translate(0 -188.52)" fill="#c9c9c9"/>
+      </g>
+    </g>
+  </g>
+</svg>

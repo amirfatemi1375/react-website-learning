@@ -1,0 +1,42 @@
+.card {
+  border-radius: 9px;
+  .card-header {
+    text-align: center;
+    background-color: #fff;
+    padding: 8px;
+    h2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      font-size: 17px;
+    }
+  }
+  p {
+    font-size: 16px;
+    color: #707070;
+  }
+  .under-line {
+    border: 1px solid #eb5454;
+    display: block;
+    width: 70px;
+    position: relative;
+    margin: 0px auto;
+    top: 9px;
+  }
+  article {
+    h3 {
+      font-size: 16px;
+      color: #ff4b4b;
+      font-weight: bold;
+    }
+    p {
+      font-size: 16px;
+      color: #707070;
+    }
+  }
+  li {
+    font-size: 16px;
+    color: #707070;
+  }
+}

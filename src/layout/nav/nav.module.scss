@@ -1,0 +1,50 @@
+.menu {
+  > ul {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+
+    > li {
+      margin: 0px 25px;
+      position: relative;
+
+      &:hover {
+        .SubMenu {
+          top: 40px;
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+
+      a {
+        color: #221638;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 600;
+        &:hover {
+          color: #fe4a55;
+        }
+      }
+    }
+  }
+  .SubMenu {
+    position: absolute;
+    list-style: none;
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 2;
+    border-top: 3px solid #fe4a55;
+    box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 10%);
+    background-color: #fff;
+    top: 40px;
+    transition: all 200ms ease-in;
+    visibility: hidden;
+    opacity: 0;
+    li {
+      border-bottom: 1px dashed #ccc;
+      padding: 12px;
+    }
+  }
+}

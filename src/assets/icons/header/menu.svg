@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.077" height="14.776" viewBox="0 0 20.077 14.776">
+  <g id="menu" transform="translate(0 -39.211)">
+    <g id="Group_8" data-name="Group 8" transform="translate(0 39.211)">
+      <g id="Group_7" data-name="Group 7" transform="translate(0 0)">
+        <path id="Path_13" data-name="Path 13" d="M18.942,39.211H1.135A1.136,1.136,0,0,0,0,40.346v1.645a1.136,1.136,0,0,0,1.135,1.135H18.942a1.136,1.136,0,0,0,1.135-1.135V40.346A1.136,1.136,0,0,0,18.942,39.211Z" transform="translate(0 -39.211)" fill="#ff4b4b"/>
+        <path id="Path_14" data-name="Path 14" d="M18.942,119.546H1.135A1.136,1.136,0,0,0,0,120.681v1.645a1.136,1.136,0,0,0,1.135,1.135H18.942a1.136,1.136,0,0,0,1.135-1.135v-1.645A1.136,1.136,0,0,0,18.942,119.546Z" transform="translate(0 -114.115)" fill="#ff4b4b"/>
+        <path id="Path_15" data-name="Path 15" d="M18.942,199.881H1.135A1.136,1.136,0,0,0,0,201.016v1.645A1.136,1.136,0,0,0,1.135,203.8H18.942a1.136,1.136,0,0,0,1.135-1.135v-1.645A1.136,1.136,0,0,0,18.942,199.881Z" transform="translate(0 -189.02)" fill="#ff4b4b"/>
+      </g>
+    </g>
+  </g>
+</svg>

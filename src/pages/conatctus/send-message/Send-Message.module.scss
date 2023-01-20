@@ -1,0 +1,15 @@
+.border {
+  border: 1px solid #e6e6e6;
+  position: relative;
+  width: 503px;
+
+  .underline {
+    border: 1px solid #eb5454;
+    display: block;
+    width: 70px;
+    position: absolute;
+    margin: 0px;
+    top: 0px;
+    right: 0px;
+  }
+}

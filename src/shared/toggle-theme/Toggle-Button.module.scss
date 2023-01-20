@@ -1,0 +1,28 @@
+.toggleContainer {
+  display: flex;
+  align-items: center;
+}
+.toggle {
+  width: 60px;
+  height: 34px;
+  position: relative;
+  border-radius: 30px;
+  background-color: rgb(96, 188, 231);
+  display: flex;
+  align-items: center;
+  transition-duration: 600ms;
+  margin: 0px 8px;
+  cursor: pointer;
+  .toggleContent {
+    padding: 10px;
+    display: block;
+    position: absolute;
+    width: 26px;
+    height: 27px;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+}
+.toggleicon {
+  cursor: pointer;
+}

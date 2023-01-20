@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "byekan";
+  src: url("assets/fonts/YekanBakh/eot/YekanBakh-Regular.eot"),
+    /* IE9 Compat Modes */
+      url("assets/fonts/YekanBakh/eot/YekanBakh-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("assets/fonts/YekanBakh/woff/YekanBakh-Regular.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */
+      url("assets/fonts/YekanBakh/ttf/YekanBakh-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: "byekan-bold";
+  src: url("assets/fonts/YekanBakh/eot/YekanBakh-Heavy.eot"),
+    /* IE9 Compat Modes */
+      url("assets/fonts/YekanBakh/eot/YekanBakh-Heavy.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("assets/fonts/YekanBakh/woff/YekanBakh-Heavy.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */
+      url("assets/fonts/YekanBakh/ttf/YekanBakh-Heavy.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; /* Safari, Android, iOS */
+}
+body {
+  direction: rtl;
+  text-align: unset !important;
+  font-family: "byekan" !important;
+  background-color: #fbfbfb !important;
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.Toastify__toast-body {
+  font-family: "byekan" !important;
+}

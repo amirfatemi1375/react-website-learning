@@ -1,0 +1,1 @@
+export const leadGet="lead/get";

@@ -1,0 +1,179 @@
+.title {
+  // font-family: 'iran_sans_bold';
+  background-color: #ffe19e;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.contactus {
+  background-color: #f7f7f7;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px #000;
+  // font-family: 'iran_sans_bold';
+  font-family: "byekan-bold";
+  font-size: 15px;
+
+  address {
+    // font-family: 'iran_sans_bold';
+    font-family: "byekan-bold";
+  }
+  section.info {
+    align-items: flex-end;
+    span {
+      // font-family: 'iran_sans_bold';
+      font-family: "byekan-bold";
+    }
+  }
+}
+.send-message {
+  background-color: #f7f7f7;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px #000;
+  // font-family: 'iran_sans_bold';
+  font-family: "byekan-bold";
+  label {
+    font-size: 13px;
+  }
+  .form-container {
+    display: flex;
+    align-items: flex-start;
+  }
+}
+.submit {
+  background-color: #0b9c60;
+  margin: 5px;
+  color: white;
+  border-radius: 8px;
+  padding: 7px 10px;
+  width: 20%;
+}
+.card {
+  border-radius: 9px;
+  .card-header {
+    text-align: center;
+    background-color: #fff;
+    padding: 8px;
+    h2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      font-size: 17px;
+    }
+  }
+  p {
+    font-size: 16px;
+  }
+  .under-line {
+    border: 1px solid #eb5454;
+    display: block;
+    width: 70px;
+    position: relative;
+    margin: 0px auto;
+    top: 9px;
+  }
+  .address,
+  .phone {
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    width: 503px;
+    padding: 12px;
+    border-radius: 9px;
+    font-size: 16px;
+    margin: 10px 0px;
+    color: #555555;
+    address {
+      margin: 0px 9px;
+    }
+  }
+  .phone {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+  form {
+    margin: 20px 0px;
+    h2 {
+      font-size: 16px;
+    }
+    .form-group {
+      width: 503px;
+    }
+    input[type="text"],
+    textarea {
+      border-radius: 9px;
+      font-size: 14px;
+      height: 52px;
+      width: 100%;
+    }
+    input:focus,
+    textarea:focus,
+    select:focus {
+      outline: none;
+      box-shadow: none;
+    }
+    .btn-accept {
+      background-color: #fe3e3e;
+      margin: 5px;
+      color: white;
+      border-radius: 9px;
+      width: 152px;
+      height: 52px;
+      font-size: 14px;
+    }
+  }
+  .border {
+    border: 1px solid #e6e6e6;
+    position: relative;
+    width: 503px;
+
+    .under-line {
+      border: 1px solid #eb5454;
+      display: block;
+      width: 70px;
+      position: absolute;
+      margin: 0px;
+      top: 0px;
+      right: 0px;
+    }
+  }
+  .card-body {
+    display: flex;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: inherit;
+  }
+  .card-body {
+    flex-wrap: wrap;
+    section {
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .form-group {
+    width: 320px !important;
+  }
+  .border {
+    width: 320px !important;
+  }
+  .address,
+  .phone {
+    width: 320px !important;
+    font-size: 13px !important;
+  }
+  .user-img {
+    display: none;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .container {
+    max-width: inherit;
+  }
+  .user-img {
+    display: none;
+  }
+}
