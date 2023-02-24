@@ -1,7 +1,7 @@
 import Btn from '../../components/btn/Btn';
 import CourseList from '../../components/courses/course-list/CourseList';
 import style from './home.module.scss';
-import { getCourseList } from '../../data/data';
+import { getCourseList } from '../../mock/data';
 const Home=()=>{
    const coursetList=getCourseList();
    return(

@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { getCourse } from "../../data/data";
+import { getCourse } from "../../mock/data";
 import { numberComma } from "../../utils/number-comma";
 import { myContext } from '../../context/Context';
 const Course=()=>{

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getCourseList } from "../../data/data";
+import { getCourseList } from "../../mock/data";
 import CourseList from "../../components/courses/course-list/CourseList";
 import style from './Courses.module.scss';
 const Courses=()=>{

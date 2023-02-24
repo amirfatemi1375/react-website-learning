@@ -1,6 +1,6 @@
 import style from './nav.module.scss';
 import { NavLink} from 'react-router-dom';
-import { getCourseList } from '../../data/data';
+import { getCourseList } from '../../mock/data';
 import { myContext } from '../../context/Context';
 const Nav=()=>{
    const coursetList=getCourseList();
