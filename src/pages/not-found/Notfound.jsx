@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import Btn from '../../shared/components/btn/Btn'
+import Btn from '../../components/btn/Btn'
 
 const NotFound=()=>{
     let navigate=useNavigate();

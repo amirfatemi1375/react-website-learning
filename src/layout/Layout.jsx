@@ -1,10 +1,10 @@
-import Btn from "../shared/components/btn/Btn";
+import Btn from "../components/btn/Btn";
 import Header from "./header/Header";
 import Nav from "./nav/Nav";
 import './layout.scss';
 import Footer from "./footer/Footer";
 import { myContext, themes } from "../context/Context";
-import ToggleButton from "../shared/toggle-theme/Toggle-Theme";
+import ToggleButton from "../components/toggle-theme/Toggle-Theme";
 import { useState,useEffect } from "react";
 import { useLocalStorage } from "../hooks/LocalStorageHook";
     const Layout=({children})=>{

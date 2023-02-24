@@ -1,8 +1,8 @@
 import style from './course-list.module.scss';
 import Btn from '../../btn/Btn';
 import { Link } from 'react-router-dom';
-import { numberComma } from '../../../../utils/number-comma';
-import { myContext } from '../../../../context/Context';
+import { numberComma } from '../../../utils/number-comma';
+import { myContext } from '../../../context/Context';
 const CourseList=({courses})=>{
    return (
       <myContext.Consumer>
