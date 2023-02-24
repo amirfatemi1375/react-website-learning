@@ -1,18 +1,18 @@
-import './aboutus.scss';
+import styles from './aboutus.module.scss';
 import { myContext } from '../../context/Context';
 const Aboutus=()=>{
     return(
       <myContext.Consumer>
       {(theme) => (
       <div className="container col-md-10 py-3 "  >
-      <div className="card py-3" style={{backgroundColor:theme.background,
+      <div className={styles.card} style={{backgroundColor:theme.background,
       color:theme.color
       }}>
-            <div className="card-header" style={{backgroundColor:theme.background,
+            <div className={styles['card-header']} style={{backgroundColor:theme.background,
       color:theme.color
       }}>
                 <h2>درباره ما</h2>
-                <span className="under-line"></span>
+                <span className={styles['under-line']}></span>
             </div>
             <div className="card-body d-block">
                 

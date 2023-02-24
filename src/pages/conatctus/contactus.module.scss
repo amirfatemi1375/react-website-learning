@@ -50,7 +50,8 @@
 }
 .card {
   border-radius: 9px;
-  .card-header {
+  background-color: #fff;
+  .cardheader {
     text-align: center;
     background-color: #fff;
     padding: 8px;
@@ -65,7 +66,7 @@
   p {
     font-size: 16px;
   }
-  .under-line {
+  .underline {
     border: 1px solid #eb5454;
     display: block;
     width: 70px;

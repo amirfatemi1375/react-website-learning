@@ -44,7 +44,7 @@ const SendMessage=({onSendMessage})=>{
                 </div>
                 </div>
                 <div className="text-right">
-                  <button  className=" btn-accept "  >
+                  <button  className={style['btn-accept']}  >
                       <span>ارسال</span>
                     
                   </button> 

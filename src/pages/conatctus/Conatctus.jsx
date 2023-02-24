@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { post } from '../../services/http-service';
-import './contactus.scss';
+import styles from './contactus.module.scss';
 import SendMessage from './send-message/Send-Massage';
 import { myContext } from '../../context/Context';
 import { successMessage } from '../../utils/toast';
@@ -38,20 +38,20 @@ const Contactus=()=>{
       color: theme.color
     }}>
       <div className="container py-3 ">
-      <div className="card py-3"  style={{
+      <div className={styles['card']}  style={{
       backgroundColor: theme.background,
       color: theme.color
     }}>
-          <div className="card-header" style={{
+          <div className={styles['card-header']} style={{
       backgroundColor: theme.background,
       color: theme.color
     }}>
               <h2>تماس با ما </h2>
-              <span className="under-line"></span>
+              <span className={styles['under-line']}></span>
           </div>
-          <div className="card-body">
+          <div className={styles['card-body']}>
                <section>
-                    <div className="address">
+                    <div className={styles['address']}>
                         <span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24.031" height="27.342" viewBox="0 0 24.031 27.342">
   <g id="location" transform="translate(-31)">
@@ -74,7 +74,7 @@ const Contactus=()=>{
 
                         </address>
                     </div>
-                    <div className="phone">
+                    <div className={styles['phone']}>
                       <span>
                       <svg xmlns="http://www.w3.org/2000/svg" width="31.997" height="31.997" viewBox="0 0 31.997 31.997">
   <g id="phone-call_2_" data-name="phone-call (2)" transform="translate(0 0)">
